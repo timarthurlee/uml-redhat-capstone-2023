@@ -64,5 +64,5 @@ rm -rf html/.{doctrees,buildinfo}
 %license LICENSE
 
 %changelog
-* Tues Jan 23 2024 Tim Lee <timarthurlee@gmail.com> - 0.41-1
+* Tue Jan 23 2024 Tim Lee <timarthurlee@gmail.com> - 0.41-1
 - Initial package.
