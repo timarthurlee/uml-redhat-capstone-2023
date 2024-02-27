@@ -18,7 +18,7 @@ BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(sphinx)
 
 %description
-Numba .. image::
+ A Just-In-Time Compiler for Numerical Functions in Python
 
 %package -n     python3-%{pypi_name}
 Summary:        %{summary}
@@ -26,13 +26,9 @@ Summary:        %{summary}
 
 Requires:       (python3dist(llvmlite) >= 0.42~~dev0 with python3dist(llvmlite) < 0.43~~)
 Requires:       (python3dist(numpy) >= 1.22 with python3dist(numpy) < 1.27~~)
-%description -n python3-%{pypi_name}
-Numba .. image::
 
-%package -n python-%{pypi_name}-doc
-Summary:        numba documentation
-%description -n python-%{pypi_name}-doc
-Documentation for numba
+%description -n python3-%{pypi_name}
+ A Just-In-Time Compiler for Numerical Functions in Python
 
 %prep
 %autosetup -n %{pypi_name}-%{pypi_version}
@@ -42,9 +38,9 @@ rm -rf %{pypi_name}.egg-info
 %build
 %py3_build
 # generate html docs
-PYTHONPATH=${PWD} sphinx-build-3 docs/source html
+#PYTHONPATH=${PWD} sphinx-build-3 docs/source html
 # remove the sphinx-build leftovers
-rm -rf html/.{doctrees,buildinfo}
+#rm -rf html/.{doctrees,buildinfo}
 
 %install
 %py3_install
@@ -59,8 +55,6 @@ rm -rf html/.{doctrees,buildinfo}
 %{python3_sitearch}/%{pypi_name}
 %{python3_sitearch}/%{pypi_name}-%{pypi_version}-py%{python3_version}.egg-info
 
-%files -n python-%{pypi_name}-doc
-%doc html
 %license LICENSE LICENSES.third-party
 
 %changelog
