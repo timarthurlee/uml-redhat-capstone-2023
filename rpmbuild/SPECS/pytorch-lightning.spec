@@ -56,30 +56,18 @@ Summary:        %{summary}
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
 Requires:       python3dist(bitsandbytes) = 0.41
-Requires:       python3dist(bitsandbytes) = 0.41
 Requires:       python3dist(cloudpickle) >= 1.3
 Requires:       python3dist(coverage) = 7.3.1
-Requires:       (python3dist(deepspeed) >= 0.8.2 with python3dist(deepspeed) <= 0.9.3)
-Requires:       (python3dist(deepspeed) >= 0.8.2 with python3dist(deepspeed) <= 0.9.3)
-Requires:       (python3dist(deepspeed) >= 0.8.2 with python3dist(deepspeed) <= 0.9.3)
 Requires:       (python3dist(deepspeed) >= 0.8.2 with python3dist(deepspeed) <= 0.9.3)
 Requires:       python3dist(fastapi)
 Requires:       python3dist(fsspec) >= 2022.5
 Requires:       python3dist(gym) >= 0.17
-Requires:       python3dist(gym) >= 0.17
-Requires:       python3dist(hydra-core) >= 1.0.5
 Requires:       python3dist(hydra-core) >= 1.0.5
 Requires:       python3dist(ipython) < 8.15~~
-Requires:       python3dist(ipython) < 8.15~~
-Requires:       python3dist(jsonargparse) >= 4.26.1
 Requires:       python3dist(jsonargparse) >= 4.26.1
 Requires:       python3dist(lightning-utilities) >= 0.8
-Requires:       python3dist(lightning-utilities) >= 0.8
-Requires:       python3dist(lightning-utilities) >= 0.8
-Requires:       python3dist(matplotlib) > 3.1.0
 Requires:       python3dist(matplotlib) > 3.1.0
 Requires:       python3dist(numpy) >= 1.17.2
-Requires:       python3dist(omegaconf) >= 2.0.5
 Requires:       python3dist(omegaconf) >= 2.0.5
 Requires:       python3dist(onnx) >= 0.14
 Requires:       python3dist(onnxruntime) >= 0.15
@@ -93,18 +81,12 @@ Requires:       python3dist(pytest-rerunfailures) = 12
 Requires:       python3dist(pytest-timeout) = 2.1
 Requires:       python3dist(pyyaml) >= 5.4
 Requires:       python3dist(requests) < 2.32~~
-Requires:       python3dist(requests) < 2.32~~
-Requires:       python3dist(rich) >= 12.3
 Requires:       python3dist(rich) >= 12.3
 Requires:       python3dist(scikit-learn) > 0.22.1.0
 Requires:       python3dist(tensorboard) >= 2.9.1
 Requires:       python3dist(tensorboardx) >= 2.2
-Requires:       python3dist(tensorboardx) >= 2.2
 Requires:       python3dist(torch) >= 1.13
 Requires:       python3dist(torchmetrics) >= 0.10
-Requires:       python3dist(torchmetrics) >= 0.10
-Requires:       python3dist(torchmetrics) >= 0.7
-Requires:       python3dist(torchvision) >= 0.14
 Requires:       python3dist(torchvision) >= 0.14
 Requires:       python3dist(tqdm) >= 4.57
 Requires:       python3dist(typing-extensions) >= 4.4
