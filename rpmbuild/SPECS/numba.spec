@@ -13,7 +13,6 @@ Source0:        %{pypi_source}
 BuildRequires:  python3-devel
 BuildRequires:  (python3dist(llvmlite) >= 0.42~~dev0 with python3dist(llvmlite) < 0.43~~)
 BuildRequires:  (python3dist(numpy) >= 1.11 with python3dist(numpy) < 1.27~~)
-BuildRequires:  (python3dist(numpy) >= 1.22 with python3dist(numpy) < 1.27~~)
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(sphinx)
 
