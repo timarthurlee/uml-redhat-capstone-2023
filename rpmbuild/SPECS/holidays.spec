@@ -15,6 +15,7 @@ BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(sphinx)
+BuildRequires:  python3dist(sphinx_rtd_theme)
 
 %description
  python-holidays A fast, efficient Python library for generating country- and
