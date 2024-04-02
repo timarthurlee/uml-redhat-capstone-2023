@@ -16,6 +16,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(sphinx)
 BuildRequires:  python3dist(sphinx-rtd-theme)
+BuildRequires:  python3dist(python-dateutil)
 
 %description
  python-holidays A fast, efficient Python library for generating country- and
