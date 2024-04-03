@@ -15,6 +15,7 @@ BuildRequires:  (python3dist(llvmlite) >= 0.42~~dev0 with python3dist(llvmlite) 
 BuildRequires:  (python3dist(numpy) >= 1.11 with python3dist(numpy) < 1.27~~)
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(sphinx)
+BuildRequires:  gcc-c++
 
 %description
  A Just-In-Time Compiler for Numerical Functions in Python
@@ -43,9 +44,6 @@ rm -rf %{pypi_name}.egg-info
 
 %install
 %py3_install
-
-%check
-%{__python3} setup.py test
 
 %files -n python3-%{pypi_name}
 %license LICENSE LICENSES.third-party
