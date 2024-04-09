@@ -15,7 +15,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 
 %description
-FFMPEG wrapper for Python.Note that the platform-specific wheels contain the
+FFMPEG wrapper for Python. Note that the platform-specific wheels contain the
 binary executable of ffmpeg, which makes this package around 60 MiB in size. I
 guess that's the cost for being able to read/write video files.For Linux users:
 the above is not the case when installing via your Linux package manager (if
@@ -28,7 +28,7 @@ Summary:        %{summary}
 
 Requires:       python3dist(setuptools)
 %description -n python3-%{pypi_name}
-FFMPEG wrapper for Python.Note that the platform-specific wheels contain the
+FFMPEG wrapper for Python. Note that the platform-specific wheels contain the
 binary executable of ffmpeg, which makes this package around 60 MiB in size. I
 guess that's the cost for being able to read/write video files.For Linux users:
 the above is not the case when installing via your Linux package manager (if
