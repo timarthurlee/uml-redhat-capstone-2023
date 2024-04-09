@@ -15,7 +15,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 
 %description
-
+Lion, EvoLved Sign Momentum, new optimizer discovered by Google Brain that is purportedly better than Adam(w), in Pytorch.
 
 %package -n     python3-%{pypi_name}
 Summary:        %{summary}
